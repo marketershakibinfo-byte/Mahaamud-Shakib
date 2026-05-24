@@ -303,20 +303,20 @@ def draw_footer(c):
 
     c.setFillColor(white)
     c.setFont("Helvetica-Bold", 10)
-    c.drawString(28, 22, "MAHAMUD SHAKIB")
+    c.drawString(28, 22, "ABU SHAKIB SAGOR")
     c.setFont("Helvetica", 8.5)
     c.drawString(28, 10, "Google Ads Specialist  •  Performance Marketing  •  Roofing Niche")
 
     c.setFont("Helvetica-Bold", 9)
     c.drawRightString(PAGE_W - 28, 22, "Ready to grow your roofing business?")
     c.setFont("Helvetica", 8.5)
-    c.drawRightString(PAGE_W - 28, 10, "Book a free strategy call  →  shakib@mahamud.ads")
+    c.drawRightString(PAGE_W - 28, 10, "Book a free strategy call  \u2192  linkedin.com/in/abushakibsagor")
 
 
 def build_pdf():
     c = canvas.Canvas(OUTPUT, pagesize=A4)
     c.setTitle("Google Ads Case Study — Roofing")
-    c.setAuthor("Mahamud Shakib")
+    c.setAuthor("Abu Shakib Sagor")
     c.setSubject("Premium Performance Marketing Case Study")
 
     draw_background(c)
